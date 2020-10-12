@@ -26,7 +26,9 @@
             left: 30%;
             border-radius: 15px;/*设置圆角边框*/
         }
-        
+        a{
+		    text-decoration:none;
+		}
         #logo {
 			width: 100px;
 			position: absolute;
@@ -103,6 +105,11 @@
             font-size: 15px;
             color: rgb(0,148,216);
 		}
+		#line4 {
+		    text-decoration: none;  
+            font-size: 15px;
+            color: rgb(94,92,41);
+		}
 		#chapter1 {
 		    text-decoration: none; 
             position: absolute;			
@@ -124,6 +131,13 @@
             font-size: 25px;
             color: rgb(0,148,216);
 		}
+		#chapter4 {
+		    text-decoration: none; 
+            position:absolute;
+            top: 1100px;			
+            font-size: 25px;
+            color: rgb(1,124,103);
+		}
     </style>
 
 </head>
@@ -137,30 +151,39 @@
         <ul>
 		    <li> 此处为链接 </li>
 			<li> 此处预留ppt下载(a) </li>
-            <li><a id="line1" href="#chapter1"> 名字及logo来源 </a></li>
-            <li><a id="line2" href="#chapter2"> 小组组成 </a></li>
-			<li><a id="line3" href="#chapter3"> 进行中的项目 </a></li>
+            <li><a id="line1" href="#chapter1"> 旅行社简介 </a></li>
+            <li><a id="line2" href="#chapter2"> 正在计划 </a></li>
+			<li><a id="line3" href="#chapter3"> 进行招揽中 </a></li>
+			<li><a id="line4" href="#chapter4"> 已结束 </a></li>
         </ul>
     </div>
     
     <!-- 名字及logo来源  -->
     <div id = "chapter1">
-        <h2> 名字及logo来源 </h2>
-		<h4> 名字发起者：陈益涵 </h4>
+        <h2> 旅行社简介 </h2>
+		<h4> 名称发起者：陈益涵 </h4>
         <h4> logo设计者：徐 鑫 </h4>
 		<h4> logo设计理念 </h4>
 		<p> 右边5条曲线：为鱼跳出水面时带上的水，说明了“鱼”的”快“ </br> 下方绿色的“山”：一座山，一棵树表示鱼“飞”的距离之远以及形象的显示出了F和Y。</p>
 		<p> 名字来源：我们小组（服务态度很快，）解决问题速度很快 </p>
-    </div>
-    <div id = "chapter2">
-	    <h2> 小组组成 </h2>
+	    <h4> 我们的团队 </h4>
 		<p> 成员：徐 鑫、陈益涵、杨小康、许世豪 </p>
 		
 	</div>
-	<div id = "chapter3">
-	    <h2> 目前正在进行的项目 </h2>
+	<div id = "chapter2">
+	    <h2> 旅行计划（正在计划）</h2>
+		<a href="#chapter3"> 点击跳转至正在实施（已经发起并招揽游客） </a></br>
 		<a href="https://rain209324.github.io/SchoolITclass/wf.html"> 上海二日游 </a>
 	</div>
+	<div id="chapter3">
+	    <h2> 已经发起并正在招揽游客的项目 </h2>
+		<p> 暂无 </p>
+	</div>
+	<div id="chapter4">
+	    <h2> 已经结束的项目 </h2>
+		<p> 暂无 </p>
+	</div>
+	
 </body>
 
 </html>
